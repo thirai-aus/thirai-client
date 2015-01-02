@@ -3,5 +3,8 @@ app.config(function($routeProvider) {
     .when('/', {
       templateUrl: 'views/movie-list.html'
     })
+    .when('/movies', {
+      templateUrl: 'views/movie-list.html'
+    })
 });
 

@@ -1,2 +1,2 @@
-var app = angular.module("thirai", ['ngRoute']);
+var app = angular.module("thirai", ['ngRoute', 'ngResource']);
 
