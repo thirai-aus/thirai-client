@@ -34,3 +34,17 @@ body {
       background: #36AFBC;
     }
 
+.menu {
+  display: flex;
+  border-bottom: 1px solid #efefef;
+}
+
+  .menu__item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    color: #999;
+    border-left: 1px solid #efefef;
+  }
+
