@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+}
+
+.movie-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+  .movie-list__item {
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    text-transform: capitalize;
+    padding: 1em;
+  }
+
+    .movie-list__item:nth-of-type(1) {
+      background: #11383C;
+    }
+
+    .movie-list__item:nth-of-type(2) {
+      background: #75BFC7;
+    }
+
+    .movie-list__item:nth-of-type(3) {
+      background: #36AFBC;
+    }
+
+    .movie-list__item:nth-of-type(4) {
+      background: #1E3A3C;
+    }
+
+    .movie-list__item:nth-of-type(5) {
+      background: #277F89;
+    }
+
